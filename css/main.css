@@ -29,6 +29,10 @@ html {
     flex-flow: row wrap;
     justify-content: space-around;
 }
+footer {
+    display: flex;
+    justify-content: center;
+}
 
 /*
  * Remove text-shadow in selection highlight:
