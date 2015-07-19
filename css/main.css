@@ -24,14 +24,14 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+footer {
+    display: flex;
+    justify-content: center;
+}
 .flexContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-footer {
-    display: flex;
-    justify-content: center;
 }
 
 /*
