@@ -24,6 +24,11 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
 
 /*
  * Remove text-shadow in selection highlight:
