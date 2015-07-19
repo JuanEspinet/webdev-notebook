@@ -14,10 +14,9 @@ article {
   border: 1px solid grey;
   border-radius: 5px;
   /*margin-left: 1rem;*/
-  margin-top: 2rem;
+  /*margin-top: 2rem;*/
   padding: 1rem;
   width: 21rem;
-  font: Verdana;
 }
 html {
     color: #222;
@@ -32,6 +31,20 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+}
+nav li {
+    display: inline-block;
+}
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+section {
+    padding-top: 10em;
 }
 
 /*
