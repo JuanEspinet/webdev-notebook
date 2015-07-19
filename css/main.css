@@ -9,7 +9,16 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+article {
+  background-color: ivory;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /*margin-left: 1rem;*/
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 21rem;
+  font: Verdana;
+}
 html {
     color: #222;
     font-size: 1em;
