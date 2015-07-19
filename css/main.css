@@ -9,8 +9,28 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/*
+
+primary color - #
+
+text color - #
+
+background color - #
+
+accent color - #
+
+warning color -#
+
+error color - #
+
+*/
+body {
+    background: linear-gradient(45deg,#8CBFA6,#5E7F6E);
+    color: #2F4037;
+    font-family: Verdana, Geneva, sans-serif;
+}
 article {
-  background-color: ivory;
+  background: linear-gradient(45deg,#8CBFA6,#A8E5C7);
   border: 1px solid grey;
   border-radius: 5px;
   /*margin-left: 1rem;*/
@@ -36,7 +56,7 @@ nav li {
     display: inline-block;
 }
 header {
-    background-color: white;
+    background: linear-gradient(45deg,#8CBFA6,#5E7F6E);
     position: fixed;
     width: 100%;
     top: 0;
