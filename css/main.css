@@ -115,9 +115,8 @@ article {
     background: linear-gradient(45deg,#8CBFA6,#A8E5C7);
     border: 1px solid grey;
     border-radius: 5px;
-    /*margin-left: 1rem;*/
-    /*margin-top: 2rem;*/
     padding: 1rem;
+    padding-top: 0rem;
     width: 21rem;
 }
 html {
@@ -137,10 +136,14 @@ footer {
 nav li {
     display: inline-block;
 }
+h1 {
+    font-size: 1.5em;
+}
 header {
     background: linear-gradient(45deg,#8CBFA6,#5E7F6E);
     position: fixed;
     width: 100%;
+    white-space: nowrap;
     height: 7em;
     top: 0;
     left: 0;
@@ -161,8 +164,7 @@ h2:before {
     display: inline ;
     margin-top: -3rem;
 }
-
-
+    /*Screen size adjustments.*/
 
 
 
@@ -252,7 +254,19 @@ h2:before {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 1em;
+    }
+    .headerLinkFloat {
+        float: none;
+        display: inline-block;
+        margin-top: 0;
+    }
+    nav ul {
+        padding: 0;
+    }
+
     /* Style adjustments for viewports that meet the condition */
 }
 
