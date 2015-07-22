@@ -119,14 +119,14 @@ article {
     padding-top: 0rem;
     width: 21rem;
 }
-/*html {
-    color: #222;
+html {
     font-size: 1em;
-    line-height: 1.4;*/
+    line-height: 1.1;
 }
 footer {
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 .flexContainer {
     display: flex;
@@ -147,25 +147,35 @@ header {
     position: fixed;
     width: 100%;
     white-space: nowrap;
-    height: 7em;
+    height: 5em;
     top: 0;
     left: 0;
     right: 0;
 }
 .content {
-    padding-top: 5em;
+    padding-top: 3.25em;
 }
 h2:before {
     display: block;
     content: "";
-    height: 5em;
-    margin-top: -4em;
+    height: 3.70em;
+    margin-top: -3.20em;
     visibility: hidden;
 }
 .h1FlexBox {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+.noMargin {
+    margin: 0 0 0 0;
+}
+.noPadding {
+    padding: 0 0 0 0;
+}
+.headerNav {
+    align-self: flex-end;
+    flex: 1 100%;
 }
 /*#headerInlineLinks {
     margin-top:1.5em;
@@ -259,7 +269,7 @@ h2:before {
    Modify as content requires.
    ========================================================================== */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 815px) {
     h1 {
         font-size: 1em;
     }
