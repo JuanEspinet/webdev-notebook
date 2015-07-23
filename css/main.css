@@ -107,11 +107,13 @@ textarea {
 
 
 body {
+    background: -webkit-linear-gradient(220deg, #FFF5BA, #7F7B5D);
     background: linear-gradient(230deg,#FFF5BA,#7F7B5D);
     color: #403D2F;
     font-family: Verdana, Geneva, sans-serif;
 }
 article {
+    background: -webkit-linear-gradient(57deg, #7F7B5D, #FFF5BA);
     background: linear-gradient(33deg,#7F7B5D,#FFF5BA);
     border: 1px solid grey;
     border-radius: 5px;
@@ -124,13 +126,28 @@ html {
     line-height: 1.1;
 }
 footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 .flexContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 nav li {
@@ -143,6 +160,7 @@ h1 {
     /*justify-content: flex-start;*/
 }
 header {
+    background: -webkit-linear-gradient(35deg, #BFB88C, #7F7B5D);
     background: linear-gradient(55deg,#BFB88C,#7F7B5D);
     position: fixed;
     width: 100%;
@@ -163,8 +181,16 @@ h2:before {
     visibility: hidden;
 }
 .h1FlexBox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .noMargin {
@@ -174,7 +200,12 @@ h2:before {
     padding: 0 0 0 0;
 }
 .headerNav {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
     align-self: flex-end;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
     flex: 1 100%;
 }
 /*#headerInlineLinks {
