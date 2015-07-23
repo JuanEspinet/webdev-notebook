@@ -11,13 +11,13 @@
    ========================================================================== */
 /*
 
-primary color - #8CBFA6
+primary color - #FFF5BA
 
-text color - #2F4037
+text color - #403D2F
 
-background color - #2F4037
+background color - #7F7B5D
 
-accent color - #A8E5C7
+accent color - #
 
 warning color -#
 
@@ -110,7 +110,7 @@ body {
     background: -webkit-linear-gradient(220deg, #FFF5BA, #7F7B5D);
     background: linear-gradient(230deg,#FFF5BA,#7F7B5D);
     color: #403D2F;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Crimson Text', serif;
 }
 article {
     background: -webkit-linear-gradient(57deg, #7F7B5D, #FFF5BA);
@@ -154,6 +154,8 @@ nav li {
     display: inline-block;
 }
 h1 {
+    font-family: 'Poiret One', cursive;
+    color: black;
     display: inline-block;
     font-size: 1.5em;
     margin-top: 0;
@@ -207,6 +209,12 @@ h2:before {
     -webkit-flex: 1 100%;
     -ms-flex: 1 100%;
     flex: 1 100%;
+}
+a:link {
+    color: #403D2F;
+}
+a:visited, a:active {
+    color: #4D4938;
 }
 /*#headerInlineLinks {
     margin-top:1.5em;
@@ -312,12 +320,6 @@ h2:before {
     nav ul {
         padding: 0;
     }
-/*    #headerInlineLinks {
-        display: block;
-        position: static;
-        margin-top:0em;
-    }
-*/
 
     /* Style adjustments for viewports that meet the condition */
 }
