@@ -5,6 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Juan Espinet | Web Development Notebook</title>
         <meta name="description" content="Juan's Web Development Notebook">
+        <!-- The tag below tells the browser to set the page width based on device width. -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -30,17 +31,17 @@
             
             <nav class="headerNav">
                 <ul class="noPadding noMargin">
-                    <li><a href="#Journal Section">Journal</a></li>
-                    <li><a href="#HTML Section">HTML</a></li>
-                    <li><a href="#CSS Section">CSS</a></li>
-                    <li><a href="#JavaScript Section">JavaScript</a></li>
-                    <li><a href="#Tools Section">Tools</a></li>
+                    <li><a href="#Journal">Journal</a></li>
+                    <li><a href="#HTML">HTML</a></li>
+                    <li><a href="#CSS">CSS</a></li>
+                    <li><a href="#JavaScript">JavaScript</a></li>
+                    <li><a href="#Tools">Tools</a></li>
                 </ul>
             </nav>
             </div>
         </header>
         <div class="content">
-            <section id="Journal Section">
+            <section id="Journal">
                 <h2>Journal</h2>
                 <div class="flexContainer">
                 <article>
@@ -57,7 +58,7 @@
                 <article>
                     <h3>Concerns</h3>
                     <ul>
-                        <li>I don't know any JavaScrip.</li>
+                        <li>I don't know any JavaScript.</li>
                         <li>I know very little CSS.</li>
                         <li>I don't know how to make my command line work right.</li>
                         <li>I don't know how to use Git yet!</li>
@@ -76,7 +77,7 @@
                 </article>
                 </div>
             </section>
-            <section id="HTML Section">
+            <section id="HTML">
                 <h2>HTML</h2>
                     <div class="flexContainer">
                     <article>
@@ -103,7 +104,7 @@
                 </article>
                 </div>
             </section>
-            <section id="CSS Section">
+            <section id="CSS">
                 <h2>CSS</h2>
                 <div class="flexContainer">
                 <article>
@@ -121,9 +122,21 @@
                         </dl>
                 </article>
                 <article>
-                    <h3>Articlause</h3>
-                    <p>This is an article about the totally awesome provendor of articles, Articlause.</p>
-                    <p>Articlause lives in the very northern reaches of every HTML document. All year round he slaves away with his javascript elves to create the greatest and best automatically populated content in the universe. Then, once per year, he rides out on his uh... css... sleigh... to distribute that content evenly in a FlexBox. Yeah... true story.</p>
+                    <h3>Media Queries</h3>
+                    <p>Media queries let us applly CSS selectively to different user environments based on the current value of relevant media features. Basically an if-then statement.</p>
+                        <dl>
+                            <dt>Media typesc</dt>
+                                <dd>Media types are things like screen, print, projection.</dd>
+                            <dt>Media features</dt>
+                                <dd>Things like width, color, monochrome, orientation.</dd>
+                    <a href="http://pieroxy.net/blog/2012/10/18/media_features_of_the_most_common_devices.html">Here is a useful link about media features and mobile devices.</a>
+                    <p>How to use media queries best:</p>
+                        <ul>
+                            <li>Design mobile styles first.</li>
+                            <li>Add media queries for larger devices.</li>
+                            <li>Override styles & specific properties as needed.</li>
+                        </ul>
+                        </dl>
                 </article>
                 <article>
                     <h3>Articlause</h3>
@@ -132,18 +145,21 @@
                 </article>
                 </div>
             </section>
-            <section id="JavaScript Section">
+            <section id="JavaScript">
                 <h2>JavaScript</h2>
                 <div class="flexContainer">
                 <article>
-                    <h3>Articlause</h3>
-                    <p>This is an article about the totally awesome provendor of articles, Articlause.</p>
-                    <p>Articlause lives in the very northern reaches of every HTML document. All year round he slaves away with his javascript elves to create the greatest and best automatically populated content in the universe. Then, once per year, he rides out on his uh... css... sleigh... to distribute that content evenly in a FlexBox. Yeah... true story.</p>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is an <em>imperative</em> programming language with is <em>procedural</em>. That is to say, it tells the computer exactly what to do and does so in a step-by-step manner.</p>
+                    <p>JavaScript is also <em>object-oriented</em>, meaning that it organizes many of its components into <em>objects</em>, which contain associated variables and functions (referred to within an object as <em>properties</em> and <em>methods</em>).</p>
                 </article>
                 <article>
-                    <h3>Articlause</h3>
-                    <p>This is an article about the totally awesome provendor of articles, Articlause.</p>
-                    <p>Articlause lives in the very northern reaches of every HTML document. All year round he slaves away with his javascript elves to create the greatest and best automatically populated content in the universe. Then, once per year, he rides out on his uh... css... sleigh... to distribute that content evenly in a FlexBox. Yeah... true story.</p>
+                    <h3>jQuery</h3>
+                    <button id="whatIsjQuery">What the heck IS jQuery?</button>
+                    <div id="jQueryExplanation" class="hiddenBox">
+                        <p>jQuery is a JavaScript library with a large variety of functions designed to make it easier to build interactive web sites.</p>
+                        <p>The key component of the jQuery library is the $() function, which enables you to call up a css selector, targeting a specific part of your HTML for jQuery to operate on. These allow you to create <em>event listeners</em>, or functions that watch for certain actions or events on your site and let you call methods from jQuery objects in response to those events.</p>
+                    </div>
                 </article>
                 <article>
                     <h3>Articlause</h3>
@@ -152,7 +168,7 @@
                 </article>
                 </div>
             </section>
-            <section id="Tools Section">
+            <section id="Tools">
                 <h2>Tools</h2>
                 <div class="flexContainer">
                 <article>
